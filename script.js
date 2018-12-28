@@ -47,7 +47,11 @@ button.addEventListener("click", addListAfterClick);
 
 input.addEventListener("keypress", addListAfterKeypress);
 
-ul.addEventListener("click", crossItem, deleteItem);//add two functions here and works
+// ul.addEventListener("click", crossItem, deleteItem);//add two functions here and works not
+
+ul.addEventListener("click", crossItem);
+
+ul.addEventListener("click", deleteItem);
 
 
 
